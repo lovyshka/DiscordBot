@@ -19,7 +19,7 @@ async def on_ready():
     '''
     print('Бот готов к использованию')
 
-'''Частично заимствовано с https://habr.com/ru/post/511454/'''
+
 @bot.command()
 async def hello(ctx):
     '''
@@ -56,7 +56,6 @@ async def hello(ctx):
     '''
     author = ctx.message.author
     await ctx.send(f'Привет,дорогой, {author.mention}!Как твои дела? А в прочем, мне не итнересно.')
-'''Конец заимствования'''
 
 @bot.command()
 async def cat(ctx):
